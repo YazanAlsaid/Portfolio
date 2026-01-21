@@ -1281,3 +1281,23 @@ main {
     margin: 0 auto;
   }
 }
+
+
+@media (max-width: 768px) {
+  .header-controls .switch {
+    background: rgba(255, 255, 255, 0.85);
+    color: #0f172a;
+    font-weight: 600;
+
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+  }
+
+  :root[data-theme="dark"] .header-controls .switch {
+    background: rgba(15, 23, 42, 0.9);
+    color: #f8fafc;
+
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.45);
+  }
+}
