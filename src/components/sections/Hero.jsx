@@ -67,10 +67,11 @@ function Hero() {
           {/* LEFT: PROFILE CARD */}
           <div className="hero-card">
             <img
-              src="/profile.jpg"
+              src="/creativefabrica-ai-image-editor-3-bot-2.png"
               alt="Yazan Alsaid"
               className="profile-image"
             />
+
 
             <div className="profile-actions">
               <a

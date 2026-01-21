@@ -20,12 +20,12 @@ export default function DocumentsModal({ open, onClose }) {
         <ul className="documents-list">
           <li>
             <a href="/documents/Arbeitszeugnis.pdf" download>
-              Deka Bank Arbeitszeugnis
+              Deka Bank - Arbeitszeugnis
             </a>
           </li>
           <li>
             <a href="/documents/Coursera-ML.pdf" download>
-              Coursera – Machine Learning
+              Frankfurt University of Applied Sciences – Arbeitszeugnis
             </a>
           </li>
           <li>
